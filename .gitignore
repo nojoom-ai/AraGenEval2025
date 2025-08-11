@@ -1,0 +1,93 @@
+# Python
+*__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+venv-dev/
+venv*
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+.env
+.env.local
+.env.*.local
+
+# Data and cache
+data/*
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Docker
+docker/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.zip
+
+###
+EDA/AuthorshipStyleTransferTask1*
+models/baseline_gemini/results/*
+analysis/fewshot_model/*/
+analysis/fine_tuned_model/*
+evaluation/labeled_log.csv
+evaluation/per_author_metrics.csv
+models/fine_tuned_model/model_weights/*
+analysis/baseline_model/fewshot_gemini/*
+models/fine_tuned_model/results/*
+!data/.gitkeep
+!*.gitkeep
+*.rar
+models/baseline_model/results/*
+*checkpoint*
+*generation_log*.json
+*gemini_rater_log_*.json
+
+submission/*.zip
+evaluation/labeled_log.json
+submission/ARCHIVE/predictions*.zip
+submission/archive_test/predictions*.zip
+
+submission/predictions.xlsx

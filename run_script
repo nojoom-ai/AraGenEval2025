@@ -1,0 +1,21 @@
+cd AraGenEval2025
+venv-dev\Scripts\activate
+pip install -r requirements_dev.txt
+
+
+## baseline model PIPELINE
+python run_baseline_pipeline.py
+
+####
+
+python models/baseline_gemini/kmeans_selector.py
+
+python models/baseline_gemini/generate_baseline.py
+
+python utils/prepare_metrics_log.py
+
+python evaluation/evaluate.py
+
+## fine-tuned model
+
+python models/fine_tuned_model/train_ast.py

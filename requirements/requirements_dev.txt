@@ -1,0 +1,30 @@
+# requirements_dev.txt
+
+# Core packages
+pandas
+openpyxl
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+sacrebleu
+
+# Gemini SDK
+google-generativeai
+
+# Dev-only tools
+jupyter
+notebook
+
+transformers
+datasets 
+evaluate 
+accelerate
+tiktoken
+sentencepiece
+huggingface_hub[hf_xet]
+hf_xet
+sentence-transformers
+psutil
+tqdm
